@@ -32,7 +32,7 @@ const RootBody = styled.div`
 
 const RootFeater = styled.footer`
   height: 30px;
-  background-image: url('./src/assets/theWayHeader.jpg');
+  background-image: url('/images/theWayHeader.jpg');
   background-position: center;
   background-size: cover;
   ${({ theme: { displayCSS } }) =>
@@ -43,7 +43,7 @@ const RootFeater = styled.footer`
   .logo {
     width: 15px;
     height: 15px;
-    background-image: url('./src/5_Shared/images/churchLogo.png');
+    background-image: url('/images/churchLogo.png');
     background-position: center;
     background-size: cover;
   }
