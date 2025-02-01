@@ -9,7 +9,7 @@ export const Layout = styled.header<{ $isHome: boolean }>`
   ${({ $isHome }) =>
     !$isHome
       ? css`
-          background-image: url('./src/assets/theWayHeader2.jpg');
+          background-image: url('/images/theWayHeader2.jpg');
           background-position: center;
           background-size: cover;
         `
@@ -36,7 +36,7 @@ export const Layout = styled.header<{ $isHome: boolean }>`
     ${({ $isHome }) =>
       $isHome
         ? css`
-            background-image: url('./src/assets/theWayHeader.jpg');
+            background-image: url('/images/theWayHeader.jpg');
             background-position: center;
             background-size: cover;
           `
