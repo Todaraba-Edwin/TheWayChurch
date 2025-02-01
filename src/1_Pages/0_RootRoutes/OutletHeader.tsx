@@ -43,7 +43,7 @@ const RootFeater = styled.footer`
   .logo {
     width: 15px;
     height: 15px;
-    background-image: url('./src/assets/churchLogo.png');
+    background-image: url('./src/5_Shared/images/churchLogo.png');
     background-position: center;
     background-size: cover;
   }
